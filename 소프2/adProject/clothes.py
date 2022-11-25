@@ -1,0 +1,36 @@
+temperature = 10
+cloth = ""
+top = ""
+bottom = ""
+outer = ""
+etc = ""
+
+if temperature >= 28:
+    cloth = "린넨 옷"
+    top = "민소매, 반팔"
+    bottom = "반바지, 짧은 치마"
+elif temperature >= 23:
+    top = "반팔, 얇은 셔츠" 
+    bottom = "반바지, 면바지"
+elif temperature >= 20:
+    top = "블라우스, 긴팔 티"
+    bottom = "면바지, 슬랙스"
+elif temperature >= 17:
+    outer = "얇은 가디건"
+    top = "니트, 맨투맨, 후드티"
+    bottom = "긴바지"
+elif temperature >= 12:
+    outer = "자켓, 가디건, 청자켓"
+    top = "니트"
+    bottom = "스타킹, 청바지"
+elif temperature >= 9:
+    outer = "트렌치코트, 야상, 점퍼"
+    bottom = "스타킹, 기모바지"
+elif temperature >= 5:
+    cloth = "가죽 옷"
+    outer = "울 코트"
+    etc = "히트텍, 기모"
+else:
+    cloth = "누빔 옷"
+    outer = "패딩, 두꺼운 코트"
+    etc = "기모, 목도리"
